@@ -194,17 +194,6 @@ training:
 
     # Stage 3
     - <<: *common_step
-      run:
-        <<: *common_run_resume_ckpt
-        binpacks: *training_binpacks
-        max_epochs: 3600
-        other_options:
-          <<: [*common_run_options, *advanced_stage_options]
-          one-cycle-steps: 3509800
-          lr: "0.9e-3"
-
-    # Stage 4
-    - <<: *common_step
       trainer: *trainer
       run:
         <<: *common_run_resume_ckpt
