@@ -182,7 +182,7 @@ training:
       run:
         <<: *common_run_resume_ckpt
         binpacks: *training_binpacks
-        max_epochs: 3750
+        max_epochs: 3850
         other_options:
           <<: [*common_run_options, *advanced_stage_options]
           one-cycle-steps: 4096000
