@@ -131,6 +131,9 @@ training:
         max_epochs: 15
         other_options:
           <<: [*training_length_options, *common_run_options]
+          # clip the feature-transformer weights only every 8 epochs (640 steps) during pretraining,
+          # 8x less often than at every epoch end; finetuning keeps the epoch-end clip
+          input-clipping-interval: 640
 
     # Finetuning
     - <<: *common_step
