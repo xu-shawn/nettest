@@ -6,6 +6,7 @@ model_config: &model_config
   features: Full_Threats+PP_3Wide+K32Q2P2^
   l1: 1024
   l2: 32
+  material-rows: true
 
 optimize_flags: &optimize_flags
   <<: *model_config
@@ -60,7 +61,7 @@ common_run_options: &common_run_options
 
 trainer: &trainer
   owner: xu-shawn
-  sha: c6d41c8d045536c9b6dc9e703c93202e9021dcfa # pc2-buckets: K32Q2P2 inputs on 140fd799
+  sha: 946ac5d4c7ce540426c19b89267c6b647355db25 # pc2-matft: K32Q2P2 + material rows on 140fd799
 
 reference_code: &reference_code
   owner: official-stockfish
@@ -69,7 +70,7 @@ reference_code: &reference_code
 
 testing_code: &testing_code
   owner: xu-shawn
-  sha: 8e413e1612ebe710d07e59fcc674c259a77fdfc6 # pc2-buckets: K32Q2P2 inputs on 5c4cef0b
+  sha: d69b322b7f40cca8c8bf7250572372a3e578de2b # pc2-matft: K32Q2P2 + material rows on 5c4cef0b
   target: build
 
 # --- Grouped Structure Anchors for Redundancy Reduction ---
