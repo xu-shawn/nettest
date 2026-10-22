@@ -5,6 +5,7 @@ training_binpacks: &training_binpacks
 model_config: &model_config
   l1: 1024
   l2: 32
+  l2-rank: 16
 
 optimize_flags: &optimize_flags
   <<: *model_config
@@ -58,8 +59,8 @@ common_run_options: &common_run_options
   lambda-cycle-delta: -0.3
 
 trainer: &trainer
-  owner: official-stockfish
-  sha: 140fd799ef4c63576833c15a7fe52ab88ba411b6 # from 2026-10-14
+  owner: xu-shawn
+  sha: 3f99f3181d96eb0927a74ac2af5038cb32e7c019 # l2-fact: factorised l1 (--l2-rank) on 140fd799
 
 reference_code: &reference_code
   owner: official-stockfish
@@ -67,8 +68,8 @@ reference_code: &reference_code
   target: build
 
 testing_code: &testing_code
-  owner: official-stockfish
-  sha: 5c4cef0bfe61fb3249178b2bcf21f5673557efe7 # from 2026-10-13
+  owner: xu-shawn
+  sha: 7a881624295f05a6a9e74f7d03b18d6b39a3e728 # l2-fact-16-32: fc_0 sparse 1024->16 + dense mix 16->32 (L2 32) on 5c4cef0b
   target: build
 
 # --- Grouped Structure Anchors for Redundancy Reduction ---
