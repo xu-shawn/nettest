@@ -46,6 +46,7 @@ training_binpacks: &training_binpacks
 model_config: &model_config
   l1: 1024
   l2: 32
+  ls-factors: "band:queen"
 
 optimize_flags: &optimize_flags
   <<: *model_config
@@ -99,8 +100,8 @@ common_run_options: &common_run_options
   lambda-cycle-delta: -0.3
 
 trainer: &trainer
-  owner: official-stockfish
-  sha: 140fd799ef4c63576833c15a7fe52ab88ba411b6 # from 2026-10-14
+  owner: xu-shawn
+  sha: 65ac5c24240888c6333232af0014ac6a2bb9098b # ls-factors: factorized layer stacks (band, queen) on official 140fd799
 
 reference_code: &reference_code
   owner: official-stockfish
