@@ -3,7 +3,7 @@ training_binpacks: &training_binpacks
   - vondele/rescored/tb5dtm.binpack
 
 model_config: &model_config
-  features: Full_Threats+PP_3Wide+Ram_Ram+K32H3^
+  features: Full_Threats+PP_3Wide+Ram_Ram+Ram_Pawn_Near+K32H3^
   l1: 1024
   l2: 32
 
@@ -60,7 +60,7 @@ common_run_options: &common_run_options
 
 trainer: &trainer
   owner: xu-shawn
-  sha: 6adac7dc9c907438f76bcc19ba7e3b4a3d51d0c4 # ram-k32h3: compact heavy-piece psq buckets (K32H3) and Ram_Ram on heavy-buckets cb2a4cc
+  sha: d86918b5927df1bb6d1e154f792d27583ee8a7f7 # ram-k32h3-rpn: Ram_Pawn_Near on ram-k32h3 6adac7d
 
 reference_code: &reference_code
   owner: official-stockfish
@@ -69,7 +69,7 @@ reference_code: &reference_code
 
 testing_code: &testing_code
   owner: xu-shawn
-  sha: bd16e30e0e26d831f6a0b80d8342b958acc338f2 # ram-k32h3: Ram_Ram and compact K32H3 inputs on dbe600b7
+  sha: 2f5ecff513712c30ded7bb0a508a3b036ebdaef8 # ram-k32h3-rpn: Ram_Pawn_Near on ram-k32h3 bd16e30e
   target: build
 
 # --- Grouped Structure Anchors for Redundancy Reduction ---
