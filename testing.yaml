@@ -8,6 +8,7 @@ model_config: &model_config
   l2: 32
   ls-keys: "imb3:half:offi"
   ls-factors: "base:imb3:half:offi"
+  ls-remap: "ls_remap/imb3_half_offi.txt"
 
 optimize_flags: &optimize_flags
   <<: *model_config
@@ -62,7 +63,7 @@ common_run_options: &common_run_options
 
 trainer: &trainer
   owner: xu-shawn
-  sha: ae6485cf0e92f445d4adc77a44a68287a239874b # ram-k32h3-lskeys: layer-stack keys (--ls-keys) with the grouped L1 kernel up to 1024 stacks
+  sha: 76c309c6809937720c275db0ced16515cc234e07 # ls-remap: --ls-keys + grouped L1 kernel, untrained stacks routed to trained fallbacks (--ls-remap)
 
 reference_code: &reference_code
   owner: official-stockfish
