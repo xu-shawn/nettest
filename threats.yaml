@@ -191,3 +191,15 @@ training:
         other_options:
           <<: [*training_length_options, *common_run_options]
           batch_size: 65536
+
+    # Finetuning to the end of the learning-rate schedule
+    - <<: *common_step
+      trainer: *trainer
+      run:
+        <<: *common_run_resume_ckpt
+        binpacks: *training_binpacks
+        max_epochs: 624
+        network-save-period: 0
+        other_options:
+          <<: [*training_length_options, *common_run_options]
+          batch_size: 65536
