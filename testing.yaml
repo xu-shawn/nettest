@@ -3,11 +3,14 @@ training_binpacks: &training_binpacks
   - vondele/rescored/tb5dtm.binpack
 
 model_config: &model_config
-  features: Full_Threats+PP_3Wide+Ram_Ram+K32H3^
+  features: Full_Threats_hm+PP_3Wide_hm+Ram_Ram_hm+K32H3^
   l1: 1024
   l2: 32
   ls-keys: "half:offi"
   ls-factors: "base:half:offi"
+  ls-compact: true
+  ls-remap-data: official-stockfish/master-binpacks/fishpack32.binpack
+  ls-remap-min: 50
 
 optimize_flags: &optimize_flags
   <<: *model_config
@@ -62,16 +65,16 @@ common_run_options: &common_run_options
 
 trainer: &trainer
   owner: xu-shawn
-  sha: 670cf8bbcacce3df6831a073662a24d55d7b80cf # ram-k32h3-lskeys: layer-stack keys --ls-keys (half, offi, imb3) on ram-k32h3-imb3 3b11d0d
+  sha: 38b1d0285b5626e95f9fbd2ccf6a79ee64b47082 # ls-compact: updated K32H3 layout, --ls-keys, stacks without data routed to a trained fallback (table counted on fishpack32 at the start of training, stored in the checkpoint and the net)
 
 reference_code: &reference_code
   owner: official-stockfish
-  sha: dbe600b7438662e9ade60b31fa0625259dcd0077 # master from 2026-10-24, the testing engine's base
+  sha: ff3a6c508ed731f0dcf253f4ddf646df19a62f84 # master ff3a6c50, the testing engine's base
   target: build
 
 testing_code: &testing_code
   owner: xu-shawn
-  sha: 85d0015dd8475c12236625ffe795b7d418f1799b # ram-k32h3-halfoffi: 192 layer stacks by pawn halves x officers on ram-k32h3 bd16e30e
+  sha: 2dbb6a2d6ae6952ac9e0b294ab9e5b3f7692ca34 # stack-table: 192 raw layer-stack buckets by pawn halves x officers, stored stacks and table read from the net; updated K32H3 layout + Ram_Ram on test1741pr_alt
   target: build
 
 # --- Grouped Structure Anchors for Redundancy Reduction ---
