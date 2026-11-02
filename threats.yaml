@@ -103,8 +103,8 @@ common_run_options: &common_run_options
   end-lambda: 1.0
   lambda-cycle-warmup-pct: 0.25
   lambda-cycle-delta: -0.3
-  ft-bucket-lr-mult: 0.25
-  threat-lr-mult: 0.5
+  ft-bucket-lr-mult: 0.5
+  threat-lr-mult: 0.7
 
 trainer: &trainer
   owner: xu-shawn
