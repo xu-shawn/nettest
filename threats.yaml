@@ -42,6 +42,46 @@ training_binpacks: &training_binpacks
   - xushawn/test80-bt4-relabel/test80-2024-01-jan-2tb7p.min-v2.v6.relabel-BT4-tf13tune.binpack
   - xushawn/test80-bt4-relabel/test80-2024-02-feb-2tb7p.min-v2.v6.relabel-BT4-tf13tune.binpack
   - vondele/rescored/tb5dtm.binpack
+  - xushawn/experiments/sfsp/endgame2-100k/sfsp-endgame2-100k-tb345-fix10m.relabel-BT4-tf13tune-histfix.binpack
+  - xushawn/experiments/sfsp/endgame2-100k/sfsp-endgame2-100k-tb345-fix10m.relabel-BT4-tf13tune-histfix.binpack
+  - xushawn/experiments/sfsp/endgame2-100k/sfsp-endgame2-100k-tb345-fix10m.relabel-BT4-tf13tune-histfix.binpack
+  - xushawn/experiments/sfsp/endgame2-100k/sfsp-endgame2-100k-tb345-fix10m.relabel-BT4-tf13tune-histfix.binpack
+  - xushawn/experiments/sfsp/endgame2-100k/sfsp-endgame2-100k-tb345-fix10m.relabel-BT4-tf13tune-histfix.binpack
+  - xushawn/experiments/sfsp/endgame2-100k/sfsp-endgame2-100k-tb345-fix10m.relabel-BT4-tf13tune-histfix.binpack
+  - xushawn/experiments/sfsp/endgame2-100k/sfsp-endgame2-100k-tb345-fix10m.relabel-BT4-tf13tune-histfix.binpack
+  - xushawn/experiments/sfsp/endgame2-100k/sfsp-endgame2-100k-tb345-fix10m.relabel-BT4-tf13tune-histfix.binpack
+  - xushawn/experiments/sfsp/endgame2-100k/sfsp-endgame2-100k-tb345-fix10m.relabel-BT4-tf13tune-histfix.binpack
+  - xushawn/experiments/sfsp/endgame2-100k/sfsp-endgame2-100k-tb345-fix10m.relabel-BT4-tf13tune-histfix.binpack
+  - xushawn/experiments/sfsp/endgame2-100k/sfsp-endgame2-100k-tb345-fix10m.relabel-BT4-tf13tune-histfix.binpack
+  - xushawn/experiments/sfsp/endgame2-100k/sfsp-endgame2-100k-tb345-fix10m.relabel-BT4-tf13tune-histfix.binpack
+  - xushawn/experiments/sfsp/endgame2-100k/sfsp-endgame2-100k-tb345-fix10m.relabel-BT4-tf13tune-histfix.binpack
+  - xushawn/experiments/sfsp/endgame2-100k/sfsp-endgame2-100k-tb345-fix10m.relabel-BT4-tf13tune-histfix.binpack
+  - xushawn/experiments/sfsp/endgame2-100k/sfsp-endgame2-100k-tb345-fix10m.relabel-BT4-tf13tune-histfix.binpack
+  - xushawn/experiments/sfsp/endgame2-100k/sfsp-endgame2-100k-tb345-fix10m.relabel-BT4-tf13tune-histfix.binpack
+  - xushawn/experiments/sfsp/endgame2-100k/sfsp-endgame2-100k-tb345-fix10m.relabel-BT4-tf13tune-histfix.binpack
+  - xushawn/experiments/sfsp/endgame2-100k/sfsp-endgame2-100k-tb345-fix10m.relabel-BT4-tf13tune-histfix.binpack
+  - xushawn/experiments/sfsp/endgame2-100k/sfsp-endgame2-100k-tb345-fix10m.relabel-BT4-tf13tune-histfix.binpack
+  - xushawn/experiments/sfsp/endgame2-100k/sfsp-endgame2-100k-tb345-fix10m.relabel-BT4-tf13tune-histfix.binpack
+  - xushawn/experiments/sfsp/endgame2-100k/sfsp-endgame2-100k-tb345-fix10m.relabel-BT4-tf13tune-histfix.binpack
+  - xushawn/experiments/sfsp/endgame2-100k/sfsp-endgame2-100k-tb345-fix10m.relabel-BT4-tf13tune-histfix.binpack
+  - xushawn/experiments/sfsp/endgame2-100k/sfsp-endgame2-100k-tb345-fix10m.relabel-BT4-tf13tune-histfix.binpack
+  - xushawn/experiments/sfsp/endgame2-100k/sfsp-endgame2-100k-tb345-fix10m.relabel-BT4-tf13tune-histfix.binpack
+  - xushawn/experiments/sfsp/endgame2-100k/sfsp-endgame2-100k-tb345-fix10m.relabel-BT4-tf13tune-histfix.binpack
+  - xushawn/experiments/sfsp/endgame2-100k/sfsp-endgame2-100k-tb345-fix10m.relabel-BT4-tf13tune-histfix.binpack
+  - xushawn/experiments/sfsp/endgame2-100k/sfsp-endgame2-100k-tb345-fix10m.relabel-BT4-tf13tune-histfix.binpack
+  - xushawn/experiments/sfsp/endgame2-100k/sfsp-endgame2-100k-tb345-fix10m.relabel-BT4-tf13tune-histfix.binpack
+  - xushawn/experiments/sfsp/endgame2-100k/sfsp-endgame2-100k-tb345-fix10m.relabel-BT4-tf13tune-histfix.binpack
+  - xushawn/experiments/sfsp/endgame2-100k/sfsp-endgame2-100k-tb345-fix10m.relabel-BT4-tf13tune-histfix.binpack
+  - xushawn/experiments/sfsp/endgame2-100k/sfsp-endgame2-100k-tb345-fix10m.relabel-BT4-tf13tune-histfix.binpack
+  - xushawn/experiments/sfsp/endgame2-100k/sfsp-endgame2-100k-tb345-fix10m.relabel-BT4-tf13tune-histfix.binpack
+  - xushawn/experiments/sfsp/endgame2-100k/sfsp-endgame2-100k-tb345-fix10m.relabel-BT4-tf13tune-histfix.binpack
+  - xushawn/experiments/sfsp/endgame2-100k/sfsp-endgame2-100k-tb345-fix10m.relabel-BT4-tf13tune-histfix.binpack
+  - xushawn/experiments/sfsp/endgame2-100k/sfsp-endgame2-100k-tb345-fix10m.relabel-BT4-tf13tune-histfix.binpack
+  - xushawn/experiments/sfsp/endgame2-100k/sfsp-endgame2-100k-tb345-fix10m.relabel-BT4-tf13tune-histfix.binpack
+  - xushawn/experiments/sfsp/endgame2-100k/sfsp-endgame2-100k-tb345-fix10m.relabel-BT4-tf13tune-histfix.binpack
+  - xushawn/experiments/sfsp/endgame2-100k/sfsp-endgame2-100k-tb345-fix10m.relabel-BT4-tf13tune-histfix.binpack
+  - xushawn/experiments/sfsp/endgame2-100k/sfsp-endgame2-100k-tb345-fix10m.relabel-BT4-tf13tune-histfix.binpack
+  - xushawn/experiments/sfsp/endgame2-100k/sfsp-endgame2-100k-tb345-fix10m.relabel-BT4-tf13tune-histfix.binpack
 
 model_config: &model_config
   features: Full_Threats+PP_3Wide+K32H3^
@@ -114,7 +154,7 @@ trainer: &trainer
 
 reference_code: &reference_code
   owner: xu-shawn
-  sha: d5a2bda7f028430f79e1789d47ae3228defb843b
+  sha: 73fe1eaca99ac4a09252c876aa6b1cceeaf7c4c7
   target: build
 
 testing_code: &testing_code
