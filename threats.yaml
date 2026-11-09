@@ -70,7 +70,7 @@ common_run_options: &common_run_options
   check-val-every-n-epoch: 10
   batch-size: 131072
   <<: *model_config
-  factorized-weight-decay: "4.0e-5"
+  factorized-weight-decay: 0.02
   random-fen-skipping: 3
   early-fen-skipping: 18
   soft-early-fen_skipping: 32
@@ -107,6 +107,7 @@ common_run_options: &common_run_options
   threat-lr-mult: 0.5
   ft-weight-decay: 0.02
   virtual-ft-weight-decay: 0.02
+  dense-weight-decay: 0.02
 
 trainer: &trainer
   owner: xu-shawn
@@ -114,7 +115,7 @@ trainer: &trainer
 
 reference_code: &reference_code
   owner: xu-shawn
-  sha: d5a2bda7f028430f79e1789d47ae3228defb843b
+  sha: 73fe1eaca99ac4a09252c876aa6b1cceeaf7c4c7
   target: build
 
 testing_code: &testing_code
