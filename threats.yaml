@@ -37,28 +37,28 @@ training_binpacks: &training_binpacks
   - vondele/linrock_relabel_2/test80-2023-09-sep-2tb7p.min-v2.v6.relabel-BT4-tf13tune.binpack
   - vondele/linrock_relabel_2/test80-2023-10-oct-2tb7p.min-v2.v6.relabel-BT4-tf13tune.binpack
   - vondele/linrock_relabel_2/test80-2023-11-nov-2tb7p.min-v2.v6.relabel-BT4-tf13tune.binpack
-  - vondele/linrock_relabel_2/test80-2023-12-dec-2tb7p.min-v2.v6.relabel-BT4-tf13tune.binpack
-  - vondele/linrock_relabel_2/test80-2023-12-dec-2tb7p.min-v2.v6.relabel-BT4-tf13tune.binpack
-  - xushawn/test80-bt4-relabel/test80-2024-01-jan-2tb7p.min-v2.v6.relabel-BT4-tf13tune.binpack
+  - xushawn/train-binpacks-bt6/test80-2023-12-dec-2tb7p.min-v2.v6.relabel-BT6-1024x24x32h-swa-7000000.binpack
+  - xushawn/train-binpacks-bt6/test80-2023-12-dec-2tb7p.min-v2.v6.relabel-BT6-1024x24x32h-swa-7000000.binpack
+  - xushawn/train-binpacks-bt6/test80-2024-01-jan-2tb7p.min-v2.v6.relabel-BT6-1024x24x32h-swa-7000000.binpack
   - xushawn/test80-bt4-relabel/test80-2024-02-feb-2tb7p.min-v2.v6.relabel-BT4-tf13tune.binpack
   - vondele/rescored/tb5dtm.binpack
-  - xushawn/sf-searchtree-bt4/sf-searchtree-n200k.000.relabel-BT4-tf13tune.binpack
-  - xushawn/sf-searchtree-bt4/sf-searchtree-n200k.001.relabel-BT4-tf13tune.binpack
-  - xushawn/sf-searchtree-bt4/sf-searchtree-n200k.002.relabel-BT4-tf13tune.binpack
-  - xushawn/sf-searchtree-bt4/sf-searchtree-n200k.003.relabel-BT4-tf13tune.binpack
-  - xushawn/sf-searchtree-bt4/sf-searchtree-n200k.004.relabel-BT4-tf13tune.binpack
-  - xushawn/sf-searchtree-bt4/sf-searchtree-n200k.005.relabel-BT4-tf13tune.binpack
-  - xushawn/sf-searchtree-bt4/sf-searchtree-n200k.006.relabel-BT4-tf13tune.binpack
-  - xushawn/sf-searchtree-bt4/sf-searchtree-n200k.007.relabel-BT4-tf13tune.binpack
-  - xushawn/sf-searchtree-bt4/sf-searchtree-n200k.008.relabel-BT4-tf13tune.binpack
-  - xushawn/sf-searchtree-bt4/sf-searchtree-n200k.009.relabel-BT4-tf13tune.binpack
-  - xushawn/sf-searchtree-bt4/sf-searchtree-n200k.010.relabel-BT4-tf13tune.binpack
-  - xushawn/sf-searchtree-bt4/sf-searchtree-n200k.011.relabel-BT4-tf13tune.binpack
-  - xushawn/sf-searchtree-bt4/sf-searchtree-n200k.012.relabel-BT4-tf13tune.binpack
-  - xushawn/sf-searchtree-bt4/sf-searchtree-n200k.013.relabel-BT4-tf13tune.binpack
-  - xushawn/sf-searchtree-bt4/sf-searchtree-n200k.014.relabel-BT4-tf13tune.binpack
-  - xushawn/sf-searchtree-bt4/sf-searchtree-n200k.015.relabel-BT4-tf13tune.binpack
-  - xushawn/sf-searchtree-bt4/sf-searchtree-n200k.016.relabel-BT4-tf13tune.binpack
+  - xushawn/sf-searchtree-bt6/sf-searchtree-n200k.000.relabel-BT6-1024x24x32h-swa-7000000.binpack
+  - xushawn/sf-searchtree-bt6/sf-searchtree-n200k.001.relabel-BT6-1024x24x32h-swa-7000000.binpack
+  - xushawn/sf-searchtree-bt6/sf-searchtree-n200k.002.relabel-BT6-1024x24x32h-swa-7000000.binpack
+  - xushawn/sf-searchtree-bt6/sf-searchtree-n200k.003.relabel-BT6-1024x24x32h-swa-7000000.binpack
+  - xushawn/sf-searchtree-bt6/sf-searchtree-n200k.004.relabel-BT6-1024x24x32h-swa-7000000.binpack
+  - xushawn/sf-searchtree-bt6/sf-searchtree-n200k.005.relabel-BT6-1024x24x32h-swa-7000000.binpack
+  - xushawn/sf-searchtree-bt6/sf-searchtree-n200k.006.relabel-BT6-1024x24x32h-swa-7000000.binpack
+  - xushawn/sf-searchtree-bt6/sf-searchtree-n200k.007.relabel-BT6-1024x24x32h-swa-7000000.binpack
+  - xushawn/sf-searchtree-bt6/sf-searchtree-n200k.008.relabel-BT6-1024x24x32h-swa-7000000.binpack
+  - xushawn/sf-searchtree-bt6/sf-searchtree-n200k.009.relabel-BT6-1024x24x32h-swa-7000000.binpack
+  - xushawn/sf-searchtree-bt6/sf-searchtree-n200k.010.relabel-BT6-1024x24x32h-swa-7000000.binpack
+  - xushawn/sf-searchtree-bt6/sf-searchtree-n200k.011.relabel-BT6-1024x24x32h-swa-7000000.binpack
+  - xushawn/sf-searchtree-bt6/sf-searchtree-n200k.012.relabel-BT6-1024x24x32h-swa-7000000.binpack
+  - xushawn/sf-searchtree-bt6/sf-searchtree-n200k.013.relabel-BT6-1024x24x32h-swa-7000000.binpack
+  - xushawn/sf-searchtree-bt6/sf-searchtree-n200k.014.relabel-BT6-1024x24x32h-swa-7000000.binpack
+  - xushawn/sf-searchtree-bt6/sf-searchtree-n200k.015.relabel-BT6-1024x24x32h-swa-7000000.binpack
+  - xushawn/sf-searchtree-bt6/sf-searchtree-n200k.016.relabel-BT6-1024x24x32h-swa-7000000.binpack
 
 model_config: &model_config
   features: Full_Threats+PP_3Wide+K32H3^
