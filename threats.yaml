@@ -345,11 +345,13 @@ common_run_options: &common_run_options
   threat-lr-mult: 0.5
   ft-weight-decay: 0.02
   virtual-ft-weight-decay: 0.02
-  tree-sample-accept: 0.0082
+  tree-sample-accept: 0.067
+  tree-decided-score: 1212
+  tree-decided-accept: 0.13
 
 trainer: &trainer
-  owner: official-stockfish
-  sha: 2e1ab8560ca058d7f720242f5e13584bb9e423eb
+  owner: xu-shawn
+  sha: f0b97ba610c5ab3c4a23fd19319f65056aefdcbf
 
 reference_code: &reference_code
   owner: xu-shawn
